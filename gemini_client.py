@@ -2,8 +2,6 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-
-
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
