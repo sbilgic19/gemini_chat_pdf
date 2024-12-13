@@ -1,0 +1,11 @@
+PyPDF2
+fastapi
+python-dotenv
+google-generativeai
+pdf2image
+pytesseract
+chromadb
+faiss-cpu
+langchain_google_genai
+langchain
+langchain-community
