@@ -8,6 +8,9 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
 import os
 import google.generativeai as genai
+import logging
+
+logger = logging.getLogger(__name__)
 
 class PDFPasswordProtectedError(Exception):
     """Exception raised for password-protected PDFs."""
@@ -57,13 +60,16 @@ def process_pdf(pdf_file) -> dict:
     Extract and preprocess text and metadata from a PDF file.
     """
     try:
+        logger.info("Starting PDF processing")
         reader = PdfReader(pdf_file)
+        logger.info("PDF processed successfully")
         text_content = ""
 
         # Check if the PDF is encrypted
         if reader.is_encrypted:
             # If the PDF is encrypted and we cannot decrypt it (i.e., no password or wrong password provided)
             if not reader.decrypt(''):  # You can replace '' with a password variable if needed
+                logger.error(f"Password-protected PDF error: {e}")
                 raise PDFPasswordProtectedError()
 
         for page in reader.pages:
@@ -84,6 +90,7 @@ def process_pdf(pdf_file) -> dict:
         }
     except Exception as e:
         print("Error processing the PDF")
+        logger.error(f"Error processing PDF: {e}")
         raise RuntimeError(f"Error processing PDF: {e}")
 
 def get_text_chunks(text: str):

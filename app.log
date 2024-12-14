@@ -1,0 +1,64 @@
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,168", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,168", "module": "multipart", "message": "Calling on_header_field with data[42:61]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,168", "module": "multipart", "message": "Calling on_header_value with data[63:150]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,168", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,168", "module": "multipart", "message": "Calling on_header_field with data[152:164]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,169", "module": "multipart", "message": "Calling on_header_value with data[166:181]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,169", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,169", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,169", "module": "multipart", "message": "Calling on_part_data with data[185:49152]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,170", "module": "multipart", "message": "Calling on_part_data with data[0:180224]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,170", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,171", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,172", "module": "multipart", "message": "Calling on_part_data with data[0:25508]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,172", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:14,172", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:34:17,675", "module": "loader", "message": "Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:34:17,676", "module": "loader", "message": "Loading faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:34:17,752", "module": "loader", "message": "Successfully loaded faiss with AVX2 support."}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,421", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,421", "module": "multipart", "message": "Calling on_header_field with data[42:61]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,421", "module": "multipart", "message": "Calling on_header_value with data[63:150]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,422", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,422", "module": "multipart", "message": "Calling on_header_field with data[152:164]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,422", "module": "multipart", "message": "Calling on_header_value with data[166:181]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,422", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,422", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,422", "module": "multipart", "message": "Calling on_part_data with data[185:114688]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,423", "module": "multipart", "message": "Calling on_part_data with data[0:98304]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,424", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,424", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,425", "module": "multipart", "message": "Calling on_part_data with data[0:41892]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,425", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:02,425", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:02,425", "module": "main", "message": "Received file upload request: Case1 Quantitative Easing in the Great Recession.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:02,426", "module": "pdf_processor", "message": "Starting PDF processing"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:02,433", "module": "pdf_processor", "message": "PDF processed successfully"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:44:05,126", "module": "loader", "message": "Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:05,126", "module": "loader", "message": "Loading faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:05,201", "module": "loader", "message": "Successfully loaded faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:05,215", "module": "main", "message": "vector_store retrieved for 07d32fd5-f263-4436-9d53-ce90cd2a14c0 successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:44:05,216", "module": "main", "message": "PDF with 07d32fd5-f263-4436-9d53-ce90cd2a14c0 is stored successfully."}
+{"levelname": "ERROR", "asctime": "2024-12-14 14:44:36,146", "module": "main", "message": "404: PDF not found"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,121", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,123", "module": "multipart", "message": "Calling on_header_field with data[42:61]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,124", "module": "multipart", "message": "Calling on_header_value with data[63:117]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,130", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,130", "module": "multipart", "message": "Calling on_header_field with data[119:131]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,130", "module": "multipart", "message": "Calling on_header_value with data[133:148]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,133", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,133", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,134", "module": "multipart", "message": "Calling on_part_data with data[152:65536]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,134", "module": "multipart", "message": "Calling on_part_data with data[0:131072]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,135", "module": "multipart", "message": "Calling on_part_data with data[0:17787]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,135", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,135", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:19,136", "module": "main", "message": "Received file upload request: enrollment_cert.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:19,136", "module": "pdf_processor", "message": "Starting PDF processing"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:19,136", "module": "pdf_processor", "message": "PDF processed successfully"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:19,952", "module": "pytesseract", "message": "['tesseract', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_m0c8r7xp_input.PPM', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_m0c8r7xp', '-l', 'tur+eng', 'txt']"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 14:46:22,866", "module": "loader", "message": "Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU"}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:22,866", "module": "loader", "message": "Loading faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:22,894", "module": "loader", "message": "Successfully loaded faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:22,903", "module": "main", "message": "vector_store retrieved for 186792d7-aaa6-4db7-a488-c483fd3033cb successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 14:46:22,904", "module": "main", "message": "PDF with 186792d7-aaa6-4db7-a488-c483fd3033cb is stored successfully."}
