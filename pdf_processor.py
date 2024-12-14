@@ -1,5 +1,6 @@
 import re
-from PyPDF2 import PdfReader
+#from PyPDF2 import PdfReader
+from pypdf import PdfReader
 import json
 from pdf2image import convert_from_bytes
 import pytesseract
@@ -69,7 +70,7 @@ def process_pdf(pdf_file) -> dict:
         if reader.is_encrypted:
             # If the PDF is encrypted and we cannot decrypt it (i.e., no password or wrong password provided)
             if not reader.decrypt(''):  # You can replace '' with a password variable if needed
-                logger.error(f"Password-protected PDF error: {e}")
+                logger.error(f"Password-protected PDF error")
                 raise PDFPasswordProtectedError()
 
         for page in reader.pages:
@@ -88,6 +89,8 @@ def process_pdf(pdf_file) -> dict:
             "text": text_content,
             "metadata": metadata
         }
+    except PDFPasswordProtectedError:
+        raise
     except Exception as e:
         print("Error processing the PDF")
         logger.error(f"Error processing PDF: {e}")

@@ -62,3 +62,292 @@
 {"levelname": "INFO", "asctime": "2024-12-14 14:46:22,894", "module": "loader", "message": "Successfully loaded faiss with AVX2 support."}
 {"levelname": "INFO", "asctime": "2024-12-14 14:46:22,903", "module": "main", "message": "vector_store retrieved for 186792d7-aaa6-4db7-a488-c483fd3033cb successfully."}
 {"levelname": "INFO", "asctime": "2024-12-14 14:46:22,904", "module": "main", "message": "PDF with 186792d7-aaa6-4db7-a488-c483fd3033cb is stored successfully."}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,950", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,953", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,954", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,954", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,954", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,954", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,954", "module": "multipart", "message": "Calling on_header_value with data[116:126]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,954", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,955", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,955", "module": "multipart", "message": "Calling on_part_data with data[130:147]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,955", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 20:29:01,955", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 20:29:01,956", "module": "main", "message": "Received file upload request: test.txt"}
+{"levelname": "WARNING", "asctime": "2024-12-14 20:29:01,956", "module": "main", "message": "File upload failed: Unsupported file type. Only PDFs are allowed."}
+{"levelname": "INFO", "asctime": "2024-12-14 20:29:01,959", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 500 Internal Server Error\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,085", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,087", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,088", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,088", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,088", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,088", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,088", "module": "multipart", "message": "Calling on_header_value with data[116:131]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,088", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,089", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,089", "module": "multipart", "message": "Calling on_part_data with data[135:162]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,089", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,089", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,090", "module": "main", "message": "Received file upload request: test.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,090", "module": "main", "message": "vector_store retrieved for 4f7aa0a9-4ebc-474c-8c2d-af4dc1b06d00 successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,090", "module": "main", "message": "PDF with 4f7aa0a9-4ebc-474c-8c2d-af4dc1b06d00 is stored successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,092", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 200 OK\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,094", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_header_value with data[116:126]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,096", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,097", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,097", "module": "multipart", "message": "Calling on_part_data with data[130:147]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,097", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,097", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,097", "module": "main", "message": "Received file upload request: test.txt"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:05:51,097", "module": "main", "message": "File upload failed: 415: Unsupported file type. Only PDFs are allowed."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,099", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 500 Internal Server Error\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,273", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,469", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,470", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,470", "module": "multipart", "message": "Calling on_header_value with data[57:106]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,470", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,470", "module": "multipart", "message": "Calling on_header_field with data[108:120]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,470", "module": "multipart", "message": "Calling on_header_value with data[122:137]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,470", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,471", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,487", "module": "multipart", "message": "Calling on_part_data with data[141:104857742]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,542", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,542", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,703", "module": "main", "message": "Received file upload request: large_test.pdf"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:05:51,704", "module": "main", "message": "File upload failed: 413: File size exceeds the 100 MB limit."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,715", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 500 Internal Server Error\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,723", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,726", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,726", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,726", "module": "multipart", "message": "Calling on_header_value with data[57:105]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,726", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,726", "module": "multipart", "message": "Calling on_header_field with data[107:119]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,726", "module": "multipart", "message": "Calling on_header_value with data[121:136]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,727", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,727", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,727", "module": "multipart", "message": "Calling on_part_data with data[140:167]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,727", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:05:51,727", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,728", "module": "main", "message": "Received file upload request: protected.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:05:51,729", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 401 Unauthorized\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,133", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,135", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,135", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,135", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_header_value with data[116:131]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_part_data with data[135:162]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,136", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,137", "module": "main", "message": "Received file upload request: test.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,137", "module": "main", "message": "vector_store retrieved for 9a947791-7551-4fd7-a4b8-a92b21416bba successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,137", "module": "main", "message": "PDF with 9a947791-7551-4fd7-a4b8-a92b21416bba is stored successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,139", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 200 OK\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,141", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,142", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,142", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,142", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_header_value with data[116:126]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_part_data with data[130:147]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,143", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,143", "module": "main", "message": "Received file upload request: test.txt"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:09:22,143", "module": "main", "message": "File upload failed: Unsupported file type. Only PDFs are allowed."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,144", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 415 Unsupported Media Type\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,194", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,347", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,347", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,348", "module": "multipart", "message": "Calling on_header_value with data[57:106]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,348", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,348", "module": "multipart", "message": "Calling on_header_field with data[108:120]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,348", "module": "multipart", "message": "Calling on_header_value with data[122:137]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,348", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,348", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,369", "module": "multipart", "message": "Calling on_part_data with data[141:104857742]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,424", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,424", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,610", "module": "main", "message": "Received file upload request: large_test.pdf"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:09:22,611", "module": "main", "message": "File upload failed: File size exceeds the 100 MB limit."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,619", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 413 Request Entity Too Large\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,631", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,643", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,643", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_header_value with data[57:105]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_header_field with data[107:119]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_header_value with data[121:136]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,644", "module": "multipart", "message": "Calling on_part_data with data[140:167]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,645", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:09:22,645", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,645", "module": "main", "message": "Received file upload request: protected.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:09:22,647", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 401 Unauthorized\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,859", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,863", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,863", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,863", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_header_value with data[116:131]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_part_data with data[135:162]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,864", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,865", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:05,865", "module": "main", "message": "Received file upload request: test.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:05,865", "module": "main", "message": "vector_store retrieved for 4c95626a-a171-413b-9557-8a0cca4bcebc successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:05,865", "module": "main", "message": "PDF with 4c95626a-a171-413b-9557-8a0cca4bcebc is stored successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:05,867", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 200 OK\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,870", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,872", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,872", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,872", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,872", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_header_value with data[116:126]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_part_data with data[130:147]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,873", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:05,874", "module": "main", "message": "Received file upload request: test.txt"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:12:05,874", "module": "main", "message": "File upload failed: Unsupported file type. Only PDFs are allowed."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:05,875", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 415 Unsupported Media Type\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:05,997", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_header_value with data[57:106]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_header_field with data[108:120]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_header_value with data[122:137]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,210", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,211", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,225", "module": "multipart", "message": "Calling on_part_data with data[141:104857742]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,278", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,278", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:06,482", "module": "main", "message": "Received file upload request: large_test.pdf"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:12:06,482", "module": "main", "message": "File upload failed: File size exceeds the 100 MB limit."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:06,490", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 413 Request Entity Too Large\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,501", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,503", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,503", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_header_value with data[57:105]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_header_field with data[107:119]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_header_value with data[121:136]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,504", "module": "multipart", "message": "Calling on_part_data with data[140:167]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,505", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:06,505", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:06,505", "module": "main", "message": "Received file upload request: protected.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:06,506", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 401 Unauthorized\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,049", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,051", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,051", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_header_value with data[116:131]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,052", "module": "multipart", "message": "Calling on_part_data with data[135:162]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,053", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,053", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,053", "module": "main", "message": "Received file upload request: test.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,053", "module": "main", "message": "vector_store retrieved for f7fec463-7769-4a71-a6d4-6bdcab5509cd successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,053", "module": "main", "message": "PDF with f7fec463-7769-4a71-a6d4-6bdcab5509cd is stored successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,055", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 200 OK\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,057", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,058", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,058", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_header_value with data[57:100]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_header_field with data[102:114]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_header_value with data[116:126]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_part_data with data[130:147]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,059", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,060", "module": "main", "message": "Received file upload request: test.txt"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:12:46,060", "module": "main", "message": "File upload failed: Unsupported file type. Only PDFs are allowed."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,061", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 415 Unsupported Media Type\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,111", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,244", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,244", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,244", "module": "multipart", "message": "Calling on_header_value with data[57:106]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,245", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,245", "module": "multipart", "message": "Calling on_header_field with data[108:120]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,245", "module": "multipart", "message": "Calling on_header_value with data[122:137]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,245", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,245", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,259", "module": "multipart", "message": "Calling on_part_data with data[141:104857742]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,313", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,314", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,429", "module": "main", "message": "Received file upload request: large_test.pdf"}
+{"levelname": "WARNING", "asctime": "2024-12-14 21:12:46,430", "module": "main", "message": "File upload failed: File size exceeds the 100 MB limit."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,437", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 413 Request Entity Too Large\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,447", "module": "selector_events", "message": "Using selector: KqueueSelector"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,448", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_header_field with data[36:55]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_header_value with data[57:105]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_header_field with data[107:119]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_header_value with data[121:136]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,449", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,450", "module": "multipart", "message": "Calling on_part_data with data[140:167]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,450", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:12:46,450", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,450", "module": "main", "message": "Received file upload request: protected.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:12:46,452", "module": "_client", "message": "HTTP Request: POST http://testserver/v1/pdf \"HTTP/1.1 401 Unauthorized\""}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,286", "module": "multipart", "message": "Calling on_part_begin with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,288", "module": "multipart", "message": "Calling on_header_field with data[42:61]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,288", "module": "multipart", "message": "Calling on_header_value with data[63:112]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,288", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,288", "module": "multipart", "message": "Calling on_header_field with data[114:126]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,289", "module": "multipart", "message": "Calling on_header_value with data[128:143]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,289", "module": "multipart", "message": "Calling on_header_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,289", "module": "multipart", "message": "Calling on_headers_finished with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,289", "module": "multipart", "message": "Calling on_part_data with data[147:98304]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,290", "module": "multipart", "message": "Calling on_part_data with data[0:229376]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,292", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,292", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,297", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,299", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,300", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,301", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,302", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,303", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,305", "module": "multipart", "message": "Calling on_part_data with data[0:256000]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,306", "module": "multipart", "message": "Calling on_part_data with data[0:221590]"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,306", "module": "multipart", "message": "Calling on_part_end with no data"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:06,306", "module": "multipart", "message": "Calling on_end with no data"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:06,308", "module": "main", "message": "Received file upload request: transcript.pdf"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:06,309", "module": "pdf_processor", "message": "Starting PDF processing"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:06,309", "module": "pdf_processor", "message": "PDF processed successfully"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:08,073", "module": "pytesseract", "message": "['tesseract', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_fqy0p1ts_input.PPM', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_fqy0p1ts', '-l', 'tur+eng', 'txt']"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:10,962", "module": "pytesseract", "message": "['tesseract', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_52bjcfg__input.PPM', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_52bjcfg_', '-l', 'tur+eng', 'txt']"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:14,072", "module": "pytesseract", "message": "['tesseract', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_8djy5ghv_input.PPM', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_8djy5ghv', '-l', 'tur+eng', 'txt']"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:16,740", "module": "pytesseract", "message": "['tesseract', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_01tyv_ba_input.PPM', '/var/folders/yq/jcrtn0rs733gns9w0dlqjck80000gn/T/tess_01tyv_ba', '-l', 'tur+eng', 'txt']"}
+{"levelname": "DEBUG", "asctime": "2024-12-14 21:31:21,779", "module": "loader", "message": "Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU"}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:21,779", "module": "loader", "message": "Loading faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:21,854", "module": "loader", "message": "Successfully loaded faiss with AVX2 support."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:21,866", "module": "main", "message": "vector_store retrieved for 42c0244d-1d98-42bc-b4e3-87eb0a8d66a4 successfully."}
+{"levelname": "INFO", "asctime": "2024-12-14 21:31:21,866", "module": "main", "message": "PDF with 42c0244d-1d98-42bc-b4e3-87eb0a8d66a4 is stored successfully."}

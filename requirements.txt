@@ -1,4 +1,4 @@
-PyPDF2
+pypdf
 fastapi
 python-dotenv
 google-generativeai
@@ -9,3 +9,5 @@ faiss-cpu
 langchain_google_genai
 langchain
 langchain-community
+httpx
+pytest

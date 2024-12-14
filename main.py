@@ -15,6 +15,8 @@ from logging_config import configure_logging
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from data_models import PDF_File, Query
+from langchain_core.caches import InMemoryCache
+from langchain_core.globals import set_llm_cache
 
 load_dotenv()
 
@@ -26,6 +28,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 app = FastAPI()
 app.add_middleware(CustomErrorHandlerMiddleware)
 
+set_llm_cache(InMemoryCache())
 # Global storage for PDFs (in-memory)
 pdf_storage = {}
 
@@ -89,8 +92,11 @@ async def upload_pdf(file: UploadFile):
     
     except PDFPasswordProtectedError as e:
         raise HTTPException(status_code=401, detail=str(e))
+    except HTTPException as http_exc:
+        logger.warning(f"File upload failed: {http_exc.detail}")
+        raise http_exc
     except Exception as e:
-        logger.warning(f"File upload failed: {e.detail}")
+        logger.warning(f"File upload failed: {e}")
         raise HTTPException(status_code=500, detail=f"Error processing PDF: {e}")
 
 @app.post("/v1/chat/{pdf_id}")

@@ -10,7 +10,7 @@ LOGGING_CONFIG = {
             "style": "{",
         },
         "json": {
-            "()": "pythonjsonlogger.jsonlogger.JsonFormatter",
+            "()": "pythonjsonlogger.json.JsonFormatter",
             "format": "%(levelname)s %(asctime)s %(module)s %(message)s",
         },
     },

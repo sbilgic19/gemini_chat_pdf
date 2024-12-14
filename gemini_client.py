@@ -21,7 +21,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 
 
-def get_conversational_chain():
+def get_conversational_chain(retry_count=0, max_retries=5):
     prompt_template="""
     You are a PDF chat assistant. Your role is to analyze and extract relevant information from PDF documents and answer user queries accurately and concisely based on the content of the uploaded PDF. Follow these guidelines when responding:
 
@@ -58,11 +58,11 @@ def get_conversational_chain():
         chain = create_stuff_documents_chain(llm=model, prompt=prompt)
         return chain
     except httpx.HTTPStatusError as e:
-        if e.response.status_code == 429:
+        if e.response.status_code == 429 and retry_count < max_retries:
             retry_after = int(e.response.headers.get("Retry-After", 1))
             print(f"Rate limited. Retrying after {retry_after} seconds...")
             time.sleep(retry_after)
-            return get_conversational_chain()  # Retry after delay
+            return get_conversational_chain(retry_count=retry_count + 1, max_retries=max_retries)  # Retry after delay
         else:
             raise HTTPException(status_code=e.response.status_code, detail=f"Gemini API Error: {e.response.text}")
     except httpx.RequestError as e:
