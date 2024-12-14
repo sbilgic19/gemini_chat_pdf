@@ -77,21 +77,29 @@ async def upload_pdf(file: UploadFile):
 @app.post("/v1/chat/{pdf_id}")
 async def chat_with_pdf(pdf_id: str = Path(..., description="The unique identifier for the PDF"), query: Query = Body(...)):
     # Validate the pdf_id and retrieve the associated PDF content
-    pdf_file = pdf_storage.get(pdf_id)
-    if not pdf_file:
-        raise HTTPException(status_code=404, detail="PDF not found")
-    
-    #pdf_content = pdf_storage[pdf_id]["content"]
-    
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-    new_db = FAISS.load_local(pdf_id, embeddings, allow_dangerous_deserialization=True)
-    docs = new_db.similarity_search(query.message)
-    chain = get_conversational_chain()
+    try:
+        pdf_file = pdf_storage.get(pdf_id)
+        if not pdf_file:
+            raise HTTPException(status_code=404, detail="PDF not found")
+        
+        #pdf_content = pdf_storage[pdf_id]["content"]
+        print("Buraya girdi")
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+        new_db = FAISS.load_local(pdf_id, embeddings, allow_dangerous_deserialization=True)
+        docs = new_db.similarity_search(query.message)
+        chain = get_conversational_chain()
 
-    response = chain({"input_documents": docs, "question": query.message}, return_only_outputs=True)
-    print(response)
-    # Use the Gemini API to generate a response based on the PDF content and user query
-    #response_text = query_gemini_api(pdf_content, query.message)
-    
-    #return Response(response=response_text)
-    return response
+        response = chain.invoke({"context": docs, "question": query.message}, return_only_outputs=True)
+        print(response)
+        # Use the Gemini API to generate a response based on the PDF content and user query
+        #response_text = query_gemini_api(pdf_content, query.message)
+        
+        #return Response(response=response_text)
+        return {"response": response.strip()}
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="Vector store for the PDF not found. Ensure it was correctly processed.")
+    except HTTPException as e:
+        # Reraise known HTTP exceptions
+        raise e
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")

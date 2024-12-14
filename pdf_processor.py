@@ -1,7 +1,6 @@
 import re
 from PyPDF2 import PdfReader
 import json
-from dotenv import load_dotenv
 from pdf2image import convert_from_bytes
 import pytesseract
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -9,11 +8,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
 import os
 import google.generativeai as genai
-load_dotenv()
 
-# Retrieve API key
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=GOOGLE_API_KEY)
 class PDFPasswordProtectedError(Exception):
     """Exception raised for password-protected PDFs."""
     def __init__(self, message="PDF is password protected and cannot be accessed without the correct password."):
